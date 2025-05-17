@@ -22,7 +22,7 @@
         <dependency>
             <groupId>io.github.vishalmysore</groupId>
             <artifactId>a2ajava</artifactId>
-            <version>0.0.7.3</version>
+            <version>0.0.7.9</version>
         </dependency>
 
         <dependency>

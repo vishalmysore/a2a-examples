@@ -19,7 +19,7 @@ public class A2AJavaAgent {
                 = "hey I am in Toronto do you think i can go out without jacket";
 
         // Get the client from Spring context
-        LocalA2ATaskClient client = context.getBean(LocalA2ATaskClient.class);
+        LocalA2ATaskClient client = new LocalA2ATaskClient();
 
         // Send task and log response
         Task t = client.sendTask(prompt);
